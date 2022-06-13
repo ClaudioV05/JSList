@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
-import './styles.css'
 import { Link } from 'react-router-dom'
-import api from '../../services/api'
+import { api } from '../../services/api'
+import './styles.css'
 
 export default class Main extends Component {
     state = {
