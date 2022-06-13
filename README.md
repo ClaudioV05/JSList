@@ -1,2 +1,4 @@
-# Listing Technology
-- [x] Technologies listing application developed using the programming language, React.JS for views, looking for specific information in an external 'API' on Heroku.
+#  Listing technology
+
+- [x] The application developed using the React JS programming language.
+- [x] Application brings information from jsonplaceholder public 'API' access link: https://jsonplaceholder.typicode.com/users
