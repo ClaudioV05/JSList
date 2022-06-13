@@ -9,12 +9,11 @@ export default class Main extends Component {
         productInfo: {},
         page: 1
     }
-    //Metodo executado assim que o componente for renderizado em tela
+    
     componentDidMount() {
         this.loadProducts()
     }
 
-    // modelo arrow function
     loadProducts = async (page = 1) => {
         const response = await api.get(`/products?page=${page}`)
         const { docs, ...productInfo } = response.data

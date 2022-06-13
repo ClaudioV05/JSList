@@ -1,12 +1,11 @@
 import React from 'react'
 import { Header } from './components/Header/Header'
-import './styles.css'
 import Routes from './routes'
+import './styles.css'
 
-const App = () => (
+export const App = () => (
   <div className="App">
     <Header />
     <Routes />
   </div>
-)
-export default App
+);

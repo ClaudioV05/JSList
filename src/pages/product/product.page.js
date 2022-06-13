@@ -1,6 +1,9 @@
 import React, {Component} from 'react'
 import { api } from './../../services/api'
+import { endPoint } from './../../services/endpoint'
 import './style.css'
+
+console.log(endPoint)
 
 export default class Product extends Component {
     state = {
@@ -9,6 +12,7 @@ export default class Product extends Component {
 
     async componentDidMount() {
         const { id } = this.props.match.params;
+
         const response = await api.get(`/products/${id}`)
         this.setState({ product: response.data })
     }

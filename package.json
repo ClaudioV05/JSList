@@ -2,8 +2,13 @@
   "name": "Listing Technology",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "^14"
+  },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^5.1.2",
