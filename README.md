@@ -4,4 +4,4 @@
 - [x] Request HTTP using Axios.
 - [x] Application brings information from jsonplaceholder public 'API'.
 - [x] Access link: https://jsonplaceholder.typicode.com
-- [x] for this example /users
+- [x] for this example '/users'
