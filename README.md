@@ -1,4 +1,6 @@
 #  Listing technology
 
 - [x] The application developed using the React JS programming language.
-- [x] Application brings information from jsonplaceholder public 'API' access link: https://jsonplaceholder.typicode.com/users
+- [x] Request HTTP using Axios.
+- [x] Application brings information from jsonplaceholder public 'API'.
+- [x] Access link: https://jsonplaceholder.typicode.com/users
