@@ -1,14 +1,15 @@
-import React from "react"
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom"
-import Main from './pages/main/main.page'
-import Product from './pages/product/product.page'
+import { User } from './pages/user/users.page'
+import { NotFound } from './pages/notfound/NotFound.page'
 
-function Routes() {
-    return (
-        <Router>
-            <Route path="/" exact component={Main} />
-            <Route path="/products/:id" component={Product} />
-        </Router>
-    )
+export const Routes = () => {
+  return (
+    <React.Fragment>
+      <Router>
+        <Route path="/" exact component={User} />
+        <Route path="*" component={NotFound} />
+      </Router>
+    </React.Fragment>
+  )
 }
-export default Routes

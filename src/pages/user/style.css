@@ -1,0 +1,73 @@
+.cards {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.cards article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.cards-list article p {
+  font-size: 16px;
+  color: rgb(102, 95, 95);
+  margin-top: 5px;
+  line-height: 24px;
+}
+
+.cards-list article a {
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid #da552f;
+  background: none;
+  margin-top: 10px;
+  color: #da552f;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-list article a:hover {
+  background: #da552f;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.actions button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #8f8d8d;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.actions button[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.actions button[disabled]:hover {
+  opacity: 0.5;
+}
+
+.actions button:hover {
+  opacity: 0.7;
+}
