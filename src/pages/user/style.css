@@ -1,0 +1,30 @@
+.cards {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.cards article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.cards-list article p {
+  font-size: 16px;
+  color: rgb(102, 95, 95);
+  margin-top: 5px;
+  line-height: 24px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}

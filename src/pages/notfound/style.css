@@ -1,0 +1,22 @@
+:root {
+  --textcolor: rgb(255, 255, 255);
+  --size: 15px;
+  --weight: normal;
+  --family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: var(--size);
+  padding-left: 5px;
+  font-weight: var(--weight);
+  font-family: var(--family);
+  color: var(--textcolor);
+}
+
+.labelLink {
+  color: var(--textcolor);
+  text-decoration: none;
+}

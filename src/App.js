@@ -1,12 +1,13 @@
 import React from 'react'
 import { Header } from './components/Header/Header'
+import { Routes } from './routes'
 import './styles.css'
-import Routes from './routes'
 
-const App = () => (
-  <div className="App">
-    <Header />
-    <Routes />
-  </div>
+export const App = () => (
+  <>
+    <div className="App">
+      <Header Title='Listing Users'/>
+      <Routes />
+    </div>
+  </>
 )
-export default App
