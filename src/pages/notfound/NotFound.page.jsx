@@ -10,7 +10,8 @@ export class NotFound extends Component {
           <span>
             <h1>Página não encontrada!</h1>
           </span>
-          <Link to="/" className="labelLink"><h1>Voltar.</h1></Link>
+          <br></br>
+          <Link to="/" className="labelLink"><h1>Clique aqui para voltar a página anterior.</h1></Link>
         </div>
       </>
     )

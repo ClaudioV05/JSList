@@ -5,7 +5,6 @@ import './style.css'
 export class User extends Component {
   state = {
     listUser: [],
-    page: 0
   }
 
   constructor() {
@@ -18,27 +17,35 @@ export class User extends Component {
   }
 
   async loadUser() {
-    const response = await api.get(`/users`)
+
+    const response = await api.get(`/users`).catch(e => {
+      let aux = e.message.toLowerCase();
+
+      if (aux = 'network error') {
+        alert('Internet desconectada!')
+      }
+    })
 
     this.setState({
-      listUser: response.data,
-      page: response.data.length
+      listUser: response.data
     })
   }
 
   render() {
-    const { listUser, page } = this.state
+    const { listUser } = this.state
     return (
       <>
         {listUser.map(e => (
           <div className="cards" key={e.id}>
             <article>
-              <strong>{e.id}: {e.name}</strong>
-              <p>Contacts: {e.phone} | Email: {e.email}</p>
+              <strong>{e.id}° {e.name}</strong>
+              <hr />
+              <p>Contacts: {e.phone}</p>
+              <p>Email: {e.email}</p>
             </article>
           </div>
         ))}
       </>
     )
   }
-}
+} 
