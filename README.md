@@ -1,7 +1,13 @@
-#  Listing technology
+# Listing technology
 
-- [x] The application developed using the React JS programming language.
-- [x] Request HTTP using Axios.
-- [x] Application brings information from jsonplaceholder public 'API'.
-- [x] Access link: https://jsonplaceholder.typicode.com
-- [x] for this example '/users'
+## Project status: Finished
+
+## 🛠 Development tools
+
+The following tools were used in building the project:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [PostGreSQL](https://www.postgresql.org/)
+- [Axios](https://axios-http.com/docs/intro)
+- [API JsonPlaceholder](https://jsonplaceholder.typicode.com)
