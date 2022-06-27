@@ -5,6 +5,7 @@
   background: #fff;
   border-radius: 5px;
   border: 1px solid #ddd;
+  overflow: hidden;
 }
 
 .cards article {

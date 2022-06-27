@@ -1,9 +1,19 @@
+:root{
+  --textcolor-color: black; 
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.container :link {
+.labelLink{
+  color: var(--textcolor-color);
+  text-decoration: none;
+}
+
+.labelLink:active{
+  color: var(--textcolor-color);
   text-decoration: none;
 }

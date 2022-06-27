@@ -1,4 +1,6 @@
 import React from 'react'
-import "./styles.css"
+import './styles.css'
 
-export const Header = () => <header id="header">Listing User</header>
+export const Header = props => {
+  return <header className="header">{props.Title}</header>
+}

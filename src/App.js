@@ -4,10 +4,10 @@ import { Routes } from './routes'
 import './styles.css'
 
 export const App = () => (
-  <React.Fragment>
+  <>
     <div className="App">
-      <Header />
+      <Header Title='Listing Users'/>
       <Routes />
     </div>
-  </React.Fragment>
+  </>
 )
